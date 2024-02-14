@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Smokey Nagata: el hombre en busca del último récord</title>
+        <link>https://eduvarga.github.io/index.html</link>
+        <description>Página informativa sobre Smokey Nagata</description>
+        <item>
+            <title>RUTAS DE VELOCIDAD: EL LEGADO COMPETITIVO DE SMOKEY</title>
+            <link>https://eduvarga.github.io/lista_definiciones.html</link>
+            <description>Competiciones y carreras en las que ha participado Smokey Nagata</description>
+        </item>
+        <item>
+            <title>ICONOS SOBRE RUEDAS BAJO EL MANDO DE SMOKEY</title>
+            <link>https://eduvarga.github.io/tabla.html</link>
+            <description>Coches en propiedad de Smokey Nagata durante la historia</description>
+        </item>
+    </channel>
+</rss>
