@@ -1,0 +1,267 @@
+/* css tabla */
+
+.tabla_centro{
+    text-align: center;
+}
+#tabla, #tabla th, #tabla td{
+    /*border: 1px solid;*/
+    border-style: inset;
+    border-color: rgb(218, 165, 32, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    padding: 8px;
+    background-color: rgb(255, 255, 255, 0.25);
+}
+#tabla th{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#tabla, #tabla td{
+    font-family: "Papyrus", fantasy;
+}
+#footer_tabla{
+    text-align: center;
+    cursor: pointer;
+}
+#titulo_tabla{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 700px;
+    opacity: 0.5;
+    border-radius: 25px;
+    padding: 6px;
+}
+#body_tabla{
+    background-image: url("./multimedia/supra_editado2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}#footer_tabla a:link, #footer_tabla a:visited {
+    background-color: rgb(218, 165, 32, 0.75);
+    color: white;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+}
+#footer_tabla a:hover, #footer_tabla a:active {
+    background-color: rgb(218, 165, 32);
+    border-radius: 25px;
+}
+
+/* css lista */
+
+#body_lista{
+    background-color: rgb(0, 0, 0, 0.75);
+}
+#lista{
+    text-align: center;
+}
+dt{
+    background-color: rgb(255, 255, 255, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+dd{
+    background-color: rgb(255, 255, 255, 0.25);
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    padding: 20px;
+    border-radius: 25px ;
+    font-family: 'Times New Roman', Times, serif;
+}
+#footer_lista a:link, #footer_lista a:visited {
+    background-color: rgb(218, 165, 32, 0.75);
+    color: white;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+}
+#footer_lista a:hover, #footer_lista a:active {
+    background-color: rgb(218, 165, 32);
+    border-radius: 25px;
+}
+#footer_lista{
+    text-align: center;
+    cursor: pointer;
+}
+#titulo_lista{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: whitesmoke;
+    width: 800px;
+    opacity: 0.5;
+    border-radius: 25px;
+    padding: 6px;
+    margin-bottom: 50px;
+}
+
+/* css pagina principal */
+
+#body_proyecto{
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.75);
+}
+#lista_proyecto{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 836px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+#lista_proyecto li{
+    float: left;
+}
+#lista_proyecto li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#lista_proyecto li a:hover{
+    background-color: #111;
+}
+
+#enlace1:link, #enlace1:visited {
+    background-color: rgb(218, 165, 32, 0.75);
+    color: white;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+}
+#enlace1:hover, #enlace1:active {
+    background-color: rgb(218, 165, 32);
+    border-radius: 25px;
+}
+#enlace1{
+    text-align: center;
+    cursor: pointer;
+}
+
+#enlace2:link, #enlace2:visited {
+    background-color: rgb(218, 165, 32, 0.75);
+    color: white;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+}
+#enlace2:hover, #enlace2:active {
+    background-color: rgb(218, 165, 32);
+    border-radius: 25px;
+}
+#enlace2{
+    text-align: center;
+    cursor: pointer;
+}
+
+#section_proyecto{
+    background-color: rgb(255, 255, 255, 0.25);
+    border-radius: 25px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+#musica{
+    background-color: rgb(218, 165, 32, 0.25);
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    border-radius: 25px;
+    padding: 10px;
+}
+#titulo_proyecto{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    opacity: 0.5;
+    margin-bottom: 20px;
+}
+#autor_proyecto{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px rgb(218, 165, 32);
+}
+#intro_proyecto{
+    background-color: rgb(255, 255, 255, 0.25);
+    border-radius: 25px;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+input[type=submit]:hover{
+    background-color: rgb(255, 255, 255, 0.75);
+}
+input[type=submit]{
+    background-color: rgb(255, 255, 255, 0.25);
+}
+input[type=reset]:hover{
+    background-color: rgb(255, 255, 255, 0.75);
+}
+input[type=reset]{
+    background-color: rgb(255, 255, 255, 0.25);
+}
+#formulario_proyecto{
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Copperplate, fantasy;
+    font-style: oblique;
+}
+#contacta{
+    color:rgb(0, 0, 0, 0.25);
+    text-shadow: 
+    -1px -1px 0 rgb(0, 0, 0),
+    1px -1px 0 rgb(0, 0, 0),
+    -1px 1px 0 rgb(218, 165, 32, 0.75),
+    1px 1px 0 rgb(218, 165, 32, 0.75);
+    font-size: 30px;
+}
+input[type=text]{
+    width: 40%;
+    padding: 12px 16px;
+    border-radius: 25px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px rgb(0, 0, 0);
+    margin-left: 15px;
+}
+textarea{
+    border-radius: 25px;
+}
+select{
+    margin-left: 10px;
+    font-size: 15px;
+    font-family: Lucida console;
+}
